@@ -47,7 +47,7 @@ constructor(
       userId: 1,
       title: this.form.controls.title.value,
       body: this.form.controls.body.value,
-      id: this.postId ?? 0, // no es necesario, pero no molesta
+      id: this.postId ?? 0, // no es necesario, pero no molestaa
     };
 
     // si hay postId => PUT, si no => POST
